@@ -1,0 +1,13 @@
+.header {
+    background: #5b4681;
+    color: #fff;
+}
+
+.header--content {
+    justify-content: space-between;
+    padding: 1.4rem;
+    display: flex;
+    // make it goes center and symmetry each other
+    max-width: 60rem;
+    margin: 0 auto;
+}

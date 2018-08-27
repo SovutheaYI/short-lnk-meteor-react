@@ -1,0 +1,50 @@
+.boxed-view {
+    background: $boxed-view-overlay-bg;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.boxed-view__modal {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: fade-out($boxed-view-overlay-bg, 0.3);
+}
+
+.boxed-view__box {
+    background: $boxed-view-bg;
+    width: 25rem;
+    text-align: center;
+    padding: 2.4rem;
+}
+
+.boxed-view__form {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-weight: 300;
+    margin-bottom: 1.4rem;
+}
+
+a {
+    color: black;
+}
+
+p {
+    margin-bottom: 3rem;
+    font-size: 1.4rem;
+}
+
+
+input[type=text], input[type=password] {
+    margin-bottom: 1.4rem;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+}

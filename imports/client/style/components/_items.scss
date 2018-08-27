@@ -1,0 +1,24 @@
+.items {
+    border: 1px solid darken(#f9f9f9, 8%);
+    background: #f9f9f9;
+    margin-bottom: 1.4rem;
+    padding: 1.4rem;
+}
+
+.item__msg {
+    color: #777777;
+}
+
+.items__empty__msg {
+    color: #777777;
+    font-style: italic;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+h2 {
+    font-size: 2.2rem;
+    margin-bottom: .6rem;
+}
